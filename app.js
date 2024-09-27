@@ -233,3 +233,147 @@
 // }
 // console.log("Musbat sonlar soni " + positive);
 // console.log("Manfiy sonlar soni " + negative);
+
+// 6 misol
+// const num1 = prompt("Birinchi sonni kiriting:");
+// const num2 = prompt("Ikkinchi sonni kiriting:");
+// if (Number(num1) > Number(num2)) {
+//     alert(Number(num1));
+// } else if (Number(num1) < Number(num2)) {
+//     alert(Number(num2));
+// } else {
+//     alert("Xatolik");
+// }
+
+// 7 misol
+// const num1 = prompt("Birinchi sonni kiriting:");
+// const num2 = prompt("Ikkinchi sonni kiriting:");
+// if (Number(num1) < Number(num2)) {
+//     alert("Kichik son " + Number(1) + "chi kiritilgan son");
+// } else if (Number(num2) < Number(num1)) {
+//     alert("Kichik son " + Number(2) + "chi kiritilgan son");
+// } else {
+//     alert("Sonlar teng");
+// }
+
+// 8 misol
+// const num1 = prompt("Birinchi sonni kiriting:");
+// const num2 = prompt("Ikkinchi sonni kiriting:");
+// if (Number(num1) > Number(num2)) {
+//     alert(`${num1} ${num2}`);
+// } else if (Number(num1) < Number(num2)) {
+//     alert(`${num2} ${num1}`);
+// } else {
+//     alert("Sonnlar teng");
+// }
+
+// 9 misol
+// let num1 = prompt("Birinchi sonni kiriting:");
+// let num2 = prompt("Ikkinchi sonni kiriting:");
+// if (num1 > num2) {
+//     let num3 = num1;
+//     num1 = num2;
+//     num2 = num3;
+//     alert(`${num1} ${num2}`);
+// } else if (num1 < num2) {
+//     alert(`${num1} ${num2}`);
+// } else {
+//     alert("Xatolik");
+// }
+
+// 10 misol
+// let num1 = prompt("Birinchi sonni kiriting:");
+// let num2 = prompt("Ikkinchi sonni kiriting:");
+// if (num1 > num2) {
+//     let num3 = Number(num1) + Number(num2);
+//     alert(`${num3}`);
+// } else if (num1 < num2) {
+//     let num4 = Number(num1) + Number(num2);
+//     alert(`${num4}`);
+// } else if (num1 == num2) {
+//     alert(`${0}`);
+// } else {
+//     alert("Xatoliks");
+// }
+
+// 11 misol
+// let num1 = prompt("Birinchi sonni kiriting:");
+// let num2 = prompt("Ikkinchi sonni kiriting:");
+// if (num1 > num2) {
+//     let num2 = num1;
+//     alert(`${num1} ${num2}`);
+// } else if (num1 < num2) {
+//     let num1 = num2;
+//     alert(`${num1} ${num2}`);
+// } else if (num1 == num2) {
+//     alert(`${0}`);
+// } else {
+//     alert("Xatolik");
+// }
+
+// 12 misol
+// const son1 = prompt("Birinchi sonni kiriting");
+// const son2 = prompt("Ikkinchi sonni kiritnig");
+// const son3 = prompt("Uchunchi sonni kiriting");
+// if (son1 > son2 && son1 > son3) {
+//   console.log("Eng kotta son", son1);
+// } else if (son1 < son2 && son1 < son3) {
+//   console.log("Eng kichik son", son1);
+// }
+// if (son2 > son1 && son2 > son3) {
+//   console.log("Eng kotta son", son2);
+// } else if (son2 < son1 && son2 < son3) {
+//   console.log("Eng kichik son", son2);
+// }
+// if (son3 > son2 && son3 > son1) {
+//   console.log("Eng kotta son", son3);
+// } else if (son3 < son1 && son3 < son2) {
+//   console.log("Eng kichik son", son3);
+// }
+
+//  13 misol
+// const son1 = prompt("Birinchi sonni kiriting");
+// const son2 = prompt("Ikkinchi sonni kiritnig");
+// const son3 = prompt("Uchunchi sonni kiriting");
+// if (son1 > son2 && son1 < son3) {
+//     alert("Sonlarning o'rtachasi " + son1);
+// } else if (son2 > son1 && son2 < son3) {
+//     alert("Sonlarning o'rtachasi " + son2);
+// } else if (son3 > son1 && son3 < son2) {
+//     alert("Sonlarning o'rtachasi " + son3);
+// } else if (son3 > son2 && son3 < son1) {
+//     alert("Sonlarning o'rtachasi " + son3);
+// } else {
+//     alert("Sonnalr teng");
+// }
+
+//  14 misol
+// const son1 = prompt("Birinchi sonni kiriting");
+// const son2 = prompt("Ikkinchi sonni kiritnig");
+// const son3 = prompt("Uchunchi sonni kiriting");
+// if (son1 > son2 && son1 > son3 && son2 > son3) {
+//     alert(`${son3} ${son2} ${son1}`);
+// } else if (son2 > son1 && son2 > son3 && son1 > son3) {
+//     alert(`${son3} ${son1} ${son2}`);
+// } else if (son3 > son1 && son3 > son2 && son1 > son2) {
+//     alert(`${son2} ${son1} ${son3}`);
+// } else {
+//     alert("Sonnalr teng");
+// }
+
+// 15 misol
+// const son1 = prompt("Birinchi sonni kiriting");
+// const son2 = prompt("Ikkinchi sonni kiritnig");
+// const son3 = prompt("Uchunchi sonni kiriting");
+// if (son1 + son2 > son2 + son3 && son1 + son2 > son1 + son3) {
+//     alert(Number(son1) + Number(son2));
+// }
+// if (son1 + son2 < son2 + son3 && son1 + son3 < son2 + son3) {
+//     alert(Number(son2) + Number(son3));
+// }
+// if (son1 + son3 > son2 + son3 && son1 + son3 > son1 + son2) {
+//     alert(Number(son1) + Number(son3));
+// }
+// if (son1 + son3 < son2 + son3 && son1 + son2 < son2 + son3) {
+//     alert(Number(son2) + Number(son3));
+// }
